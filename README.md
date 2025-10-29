@@ -95,7 +95,3 @@ pytest -v
 | `SYNC_DATABASE_URL` | Synchronous PostgreSQL URL | `postgresql://postgres:postgres@db:5432/eventdb` |
 | `CELERY_BROKER_URL` | Celery broker URL | `redis://redis:6379/0` |
 | `CELERY_RESULT_BACKEND` | Celery result backend | `redis://redis:6379/0` |
-
-## License
-
-This project is licensed under the MIT License.
