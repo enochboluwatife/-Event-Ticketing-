@@ -4,12 +4,12 @@ A REST API for event management and ticket booking with geospatial features. Bui
 
 ## Features
 
-- 🎫 **Event Management** - Create and manage events with geolocation
-- 💳 **Ticket Booking** - Purchase and pay for event tickets
-- ⏰ **Auto-Expiration** - Unpaid tickets automatically expire after 2 minutes
-- 🗺️ **Geospatial Queries** - Find events near a location using PostGIS
-- 🔐 **JWT Authentication** - Secure user authentication
-- 🐳 **Dockerized** - Complete Docker setup for easy deployment
+- **Event Management** - Create and manage events with geolocation
+-  **Ticket Booking** - Purchase and pay for event tickets
+-  **Auto-Expiration** - Unpaid tickets automatically expire after 2 minutes
+-  **Geospatial Queries** - Find events near a location using PostGIS
+- **JWT Authentication** - Secure user authentication
+-  **Dockerized** - Complete Docker setup for easy deployment
 
 ## Quick Start
 
@@ -39,7 +39,7 @@ docker-compose exec api alembic upgrade head
 # API: http://localhost:8000
 ```
 
-That's it! 🚀
+That's it! 
 
 ## API Documentation
 
